@@ -28,6 +28,17 @@ public class StringProcessor {
         }
 
         return hasUppercase && hasLowercase && hasDigit && hasSpecialChar;
+    }
+    public int calculateDigits(String sentence) {
+        int digitCount = 0;
 
+        //check each character in the sentence
+        for (int i = 0; i < sentence.length(); i++) {
+            //check if the character is a digit
+            if (Character.isDigit(sentence.charAt(i))) {
+                digitCount++;
+            }
+        }
+        return digitCount;
     }
 }
