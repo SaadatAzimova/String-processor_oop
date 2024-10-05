@@ -36,6 +36,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.StringProcessorTest.calculateDigitsTest.executor": "Run",
+    "JUnit.StringProcessorTest.calculateWordsTest.executor": "Run",
     "JUnit.StringProcessorTest.isStrongPasswordTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -50,12 +51,22 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.StringProcessorTest.calculateDigitsTest">
+  <component name="RunManager" selected="JUnit.StringProcessorTest.calculateWordsTest">
     <configuration name="StringProcessorTest.calculateDigitsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StringProcessor" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StringProcessorTest" />
       <option name="METHOD_NAME" value="calculateDigitsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringProcessorTest.calculateWordsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StringProcessor" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StringProcessorTest" />
+      <option name="METHOD_NAME" value="calculateWordsTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -73,8 +84,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StringProcessorTest.calculateDigitsTest" />
+        <item itemvalue="JUnit.StringProcessorTest.calculateWordsTest" />
         <item itemvalue="JUnit.StringProcessorTest.isStrongPasswordTest" />
+        <item itemvalue="JUnit.StringProcessorTest.calculateDigitsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -95,7 +107,8 @@
       <option name="presentableId" value="Default" />
       <updated>1727708800891</updated>
       <workItem from="1727708802023" duration="3746000" />
-      <workItem from="1727795635160" duration="1401000" />
+      <workItem from="1727795635160" duration="2261000" />
+      <workItem from="1728107988721" duration="6223000" />
     </task>
     <servers />
   </component>
@@ -109,15 +122,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/StringProcessorTest.java</url>
-          <line>18</line>
-          <properties class="StringProcessorTest" method="calculateDigitsTest">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
